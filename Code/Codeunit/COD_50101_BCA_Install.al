@@ -11,7 +11,7 @@ codeunit 50101 "BCA App Install"
         else
             HandleReInstall();
     end;
-
+    //test comment
     local procedure HandleInstall();
     var
         BeerCategory: Record "BCA Beer Category";
